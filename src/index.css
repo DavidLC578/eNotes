@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+		font-family: system-ui, sans-serif;
+		background: #e6e6e6;
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		font-family: 'Playwrite DE Grund', sans-serif;
+	}
